@@ -1,11 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    <h1>Contact</h1>
-</body>
-</html>
+@extends("layouts.default")
+
+@section('header')
+<h1 class="text-5xl">This is header</h1>
+@endsection
+
+
+@section('maincontent')
+<h1 class="text-3xl text-red-500">Contact!</h1>
+
+<div>
+    this is contact password_get_info
+
+
+
+    dadaw
+
+    dadaw
+</div>
+@endsection
+
+
+@section('footer')
+<h2>This is footer</h2>
+@endsection
